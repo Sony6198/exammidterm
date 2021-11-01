@@ -11,8 +11,8 @@ interface info {
 export class ContactComponent implements OnInit {
   selectedValue: string | undefined;
   contact: info[] = [
-    {value: '+93_920303684', viewValue: 'Phone Number'},
-    {value: 'https://www.facebook.com/gerald.lacabamosca/', viewValue: 'FaceBook'},
+    {value: '+93_9563750109', viewValue: 'Phone Number'},
+    {value: 'jaysoncolipano@facebook.com', viewValue: 'FaceBook'},
 
   ];
 

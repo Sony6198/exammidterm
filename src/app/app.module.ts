@@ -20,7 +20,6 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatSelectModule} from "@angular/material/select";
 import {MatOptionModule} from "@angular/material/core";
 import {FormsModule} from "@angular/forms";
-import { Home1Component } from './pages/home1/home1.component';
 
 
 @NgModule({
@@ -29,8 +28,8 @@ import { Home1Component } from './pages/home1/home1.component';
     HomeComponent,
     ProfileComponent,
     ContactComponent,
-    GalleryComponent,
-    Home1Component
+    GalleryComponent
+
   ],
   imports: [
     BrowserModule,

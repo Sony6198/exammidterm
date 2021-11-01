@@ -7,15 +7,14 @@ import {GalleryComponent} from "./pages/gallery/gallery.component";
 import {Home1Component} from "./pages/home1/home1.component";
 
 const routes: Routes = [
-  {path: "webhome", component: HomeComponent,
+  {path: "wer", component: HomeComponent,
     children: [
-      {path:"home",component:Home1Component},
       {path:"profile",component:ProfileComponent},
       {path: "contact", component: ContactComponent},
       {path: "gallery", component: GalleryComponent},
     ]
   },
-  {path: "**", redirectTo: "home"},
+  {path: "**", redirectTo: "wer"},
 ]
 
 @NgModule({

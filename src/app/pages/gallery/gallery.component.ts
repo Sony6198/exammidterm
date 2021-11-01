@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
   slides = [
-    {'image': 'assets/back.jpg'},
-    {'image': 'assets/img1.jpg'},
-    {'image': 'assets/img2.jpg'},
-    {'image': 'assets/img3.jpg'},
-    {'image': 'assets/img4.jpg'}
+    {'image': 'assets/download'},
+    {'image': 'assets/download (1)'},
+    {'image': 'assets/download (2)'},
+    {'image': 'assets/images'},
+    {'image': 'assets/download'}
   ];
   constructor() { }
   ngOnInit(): void {
